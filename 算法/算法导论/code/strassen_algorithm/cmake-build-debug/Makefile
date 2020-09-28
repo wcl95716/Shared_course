@@ -150,6 +150,33 @@ Matrix/Matrix.cpp.s:
 	$(MAKE) -f CMakeFiles/strassen_algorithm.dir/build.make CMakeFiles/strassen_algorithm.dir/Matrix/Matrix.cpp.s
 .PHONY : Matrix/Matrix.cpp.s
 
+StrassenAlgorithm/Matrix.o: StrassenAlgorithm/Matrix.cpp.o
+
+.PHONY : StrassenAlgorithm/Matrix.o
+
+# target to build an object file
+StrassenAlgorithm/Matrix.cpp.o:
+	$(MAKE) -f CMakeFiles/strassen_algorithm.dir/build.make CMakeFiles/strassen_algorithm.dir/StrassenAlgorithm/Matrix.cpp.o
+.PHONY : StrassenAlgorithm/Matrix.cpp.o
+
+StrassenAlgorithm/Matrix.i: StrassenAlgorithm/Matrix.cpp.i
+
+.PHONY : StrassenAlgorithm/Matrix.i
+
+# target to preprocess a source file
+StrassenAlgorithm/Matrix.cpp.i:
+	$(MAKE) -f CMakeFiles/strassen_algorithm.dir/build.make CMakeFiles/strassen_algorithm.dir/StrassenAlgorithm/Matrix.cpp.i
+.PHONY : StrassenAlgorithm/Matrix.cpp.i
+
+StrassenAlgorithm/Matrix.s: StrassenAlgorithm/Matrix.cpp.s
+
+.PHONY : StrassenAlgorithm/Matrix.s
+
+# target to generate assembly for a file
+StrassenAlgorithm/Matrix.cpp.s:
+	$(MAKE) -f CMakeFiles/strassen_algorithm.dir/build.make CMakeFiles/strassen_algorithm.dir/StrassenAlgorithm/Matrix.cpp.s
+.PHONY : StrassenAlgorithm/Matrix.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... Matrix/Matrix.o"
 	@echo "... Matrix/Matrix.i"
 	@echo "... Matrix/Matrix.s"
+	@echo "... StrassenAlgorithm/Matrix.o"
+	@echo "... StrassenAlgorithm/Matrix.i"
+	@echo "... StrassenAlgorithm/Matrix.s"
 .PHONY : help
 
 
